@@ -1,0 +1,94 @@
+openapi: 3.0.1
+info:
+  title: Store API
+  description: Store Description
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+    description: Generated server url
+paths:
+  /prices:
+    post:
+      tags:
+        - Price Controller
+      summary: Retrieve a price by date, brand and product
+      operationId: retrievePrices
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PriceRequest'
+        required: true
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PriceResponse'
+        '400':
+          description: Bad Request
+          content:
+            '*/*':
+              schema:
+                type: object
+                additionalProperties:
+                  type: string
+components:
+  schemas:
+    PriceRequest:
+      required:
+        - date
+        - brandId
+        - productId
+      type: object
+      properties:
+        date:
+          type: string
+          format: date
+          example: "2023-01-01T00:00:00Z"
+        brandId:
+          type: integer
+          format: int32
+          example: 1
+        productId:
+          type: integer
+          format: int32
+          example: 35455
+    PriceResponse:
+      required:
+        - id
+        - startDate
+        - endDate
+        - curr
+        - price
+        - brandId
+        - productId
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int32
+          example: 1
+        startDate:
+          type: string
+          format: date
+          example: "2023-01-01T00:00:00Z"
+        endDate:
+          type: string
+          format: date
+          example: "2023-01-01T00:00:00Z"
+        curr:
+          type: string
+          example: "EUR"
+        price:
+          type: string
+          example: "100.00"
+        brandId:
+          type: integer
+          format: int32
+          example: 1
+        productId:
+          type: integer
+          format: int32
+          example: 35455
