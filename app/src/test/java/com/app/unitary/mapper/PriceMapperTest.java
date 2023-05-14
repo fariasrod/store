@@ -12,7 +12,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.time.LocalDateTime;
 
-import static com.app.factory.PriceFactory.*;
+import static com.app.factory.PriceFactory.priceDomain;
+import static com.app.factory.PriceFactory.priceEntity;
+import static com.app.factory.PriceFactory.priceRequest;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 

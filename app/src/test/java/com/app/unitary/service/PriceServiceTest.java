@@ -18,11 +18,17 @@ import java.util.Collections;
 import java.util.Optional;
 
 import static com.app.factory.BrandFactory.brandEntity;
-import static com.app.factory.PriceFactory.*;
+import static com.app.factory.PriceFactory.priceDomain;
+import static com.app.factory.PriceFactory.lPriceEntity;
+import static com.app.factory.PriceFactory.priceDomainRequest;
 import static com.app.factory.ProductFactory.productEntity;
+import static com.app.factory.PriceFactory.priceDomainRequestBrandNull;
+import static com.app.factory.PriceFactory.priceDomainRequestProductNull;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.any;
 import static org.mockito.Mockito.when;
 

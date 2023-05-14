@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fea82511-9c28-4e61-b7ab-5edcf28db1e1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/spec/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/src/main/resources/openapi.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/AppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/AppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/configuration/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/configuration/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/core/mappers/PriceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/core/mappers/PriceMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/core/service/PriceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/core/service/PriceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/core/service/impl/PriceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/core/service/impl/PriceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/infrastructure/repository/BrandRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/infrastructure/repository/BrandRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/infrastructure/repository/PriceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/infrastructure/repository/PriceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/infrastructure/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/infrastructure/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/app/web/PriceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/app/web/PriceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/liquibase/changelog-master.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/liquibase/changelog-master.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/liquibase/scripts/001_create_initial_tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/liquibase/scripts/001_create_initial_tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/liquibase/scripts/002_insert_initial_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/liquibase/scripts/002_insert_initial_data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/app/AppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/app/AppApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/app/factory/BrandFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/app/factory/BrandFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/app/factory/PriceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/app/factory/PriceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/app/factory/ProductFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/app/factory/ProductFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/app/integrated/PriceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/app/integrated/PriceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/app/unitary/controller/PriceControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/app/unitary/controller/PriceControllerTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/app" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PequKOUNx4sYX3BnZ0RIidwzCK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "D:/enviroment/projects/store",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "show.run.dashboard.notification": "false"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "h2"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
+      "H2"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\enviroment\projects\store" />
+      <recent name="D:\enviroment\projects\store\app\src\main\resources" />
+      <recent name="D:\enviroment\projects\store\spec\src\main\java\com\spec" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\enviroment\projects\store\app\src\main\resources" />
+      <recent name="D:\enviroment\projects\store\spec\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.app.unitary.mapper" />
+      <recent name="com.app.unitary.service" />
+      <recent name="com.app.factory" />
+      <recent name="com.app.unitary.controller" />
+      <recent name="com.app.core.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in app">
+    <configuration name="All in app" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in store" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="store" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PriceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.app.integrated.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.app.integrated" />
+      <option name="MAIN_CLASS_NAME" value="com.app.integrated.PriceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PriceTest.WHEN_trying_to_retrieve_a_price_case_5_THEN_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.app.integrated.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.app.integrated" />
+      <option name="MAIN_CLASS_NAME" value="com.app.integrated.PriceTest" />
+      <option name="METHOD_NAME" value="WHEN_trying_to_retrieve_a_price_case_5_THEN_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PriceTest.WHEN_trying_to_retrieve_a_price_case_6_THEN_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.app.integrated.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.app.integrated" />
+      <option name="MAIN_CLASS_NAME" value="com.app.integrated.PriceTest" />
+      <option name="METHOD_NAME" value="WHEN_trying_to_retrieve_a_price_case_6_THEN_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app [clean,install]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/app" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="spec [clean,install]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+                <option value="-U" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/spec" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="AppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.app.AppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpecApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spec" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spec.SpecApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="D:\enviroment\projects\store\gen" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="https://repo1.maven.org/maven2/org/openapitools/openapi-generator-cli/5.0.0/openapi-generator-cli-5.0.0.jar" />
+      <option name="jdkPath" value="" />
+      <option name="language" value="java" />
+      <option name="specificationPath" value="D:\enviroment\projects\store\spec\src\main\resources\openapi.yaml" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All in app" />
+      <item itemvalue="JUnit.All in store" />
+      <item itemvalue="JUnit.PriceTest" />
+      <item itemvalue="JUnit.PriceTest.WHEN_trying_to_retrieve_a_price_case_5_THEN_ok" />
+      <item itemvalue="JUnit.PriceTest.WHEN_trying_to_retrieve_a_price_case_6_THEN_ok" />
+      <item itemvalue="Maven.spec [clean,install]" />
+      <item itemvalue="Maven.app [clean,install]" />
+      <item itemvalue="Spring Boot.AppApplication" />
+      <item itemvalue="Spring Boot.SpecApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in app" />
+        <item itemvalue="JUnit.All in store" />
+        <item itemvalue="JUnit.PriceTest" />
+        <item itemvalue="JUnit.PriceTest.WHEN_trying_to_retrieve_a_price_case_6_THEN_ok" />
+        <item itemvalue="JUnit.PriceTest.WHEN_trying_to_retrieve_a_price_case_5_THEN_ok" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fea82511-9c28-4e61-b7ab-5edcf28db1e1" name="Changes" comment="" />
+      <created>1683828119104</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683828119104</updated>
+      <workItem from="1683828121181" duration="63282000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
